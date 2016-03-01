@@ -1,0 +1,46 @@
+/* 
+
+Author: Mukesh Joshi
+Email: admin@iammukesh.com
+Date: 1 March 2016
+
+
+Info
+All the colors used in this style are flat UI colors. Feel free to replace with your favorite color.
+
+*/
+
+body{
+	margin: 0;
+	background: #674172;
+	color:#674172;
+	font-family: 'Raleway', 'Sans-serif';
+	font-size: 16px;
+}
+.container{
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	background: #E4F1FE;
+	text-align: center;
+	border-radius: 2px;
+	padding: 100px 50px;
+	margin-top: 100px;
+}
+.btn{
+	width: 40px;
+	font-size: 130%;
+	border-radius: 6px;
+	background: #F64747;
+	color: white;
+	outline: none;
+	box-shadow: none;
+	text-decoration: none;
+	border: 1px solid #F64747;
+	padding: 10px;
+	transition: all .3s ease;
+	cursor: pointer;
+}
+.btn:hover{background: white;
+	color: #F64747;
+}
